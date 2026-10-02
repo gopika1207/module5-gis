@@ -20,7 +20,7 @@ else:
     load_dotenv()
 
 # TNGIS Gateway Settings
-TNGIS_BASE_URL = os.getenv("TNGIS_BASE_URL", "https://tngis.tn.gov.in/api/v1").rstrip("/")
+TNGIS_BASE_URL = os.getenv("TNGIS_BASE_URL", "https://tngis.tn.gov.in/apps/generic_api/v1").rstrip("/")
 TNGIS_APP_NAME = os.getenv("TNGIS_APP_NAME", "SmartAttendanceERP")
 TNGIS_API_KEY = os.getenv("TNGIS_API_KEY", "")
 TNGIS_TIMEOUT_SECONDS = float(os.getenv("TNGIS_TIMEOUT_SECONDS", "10.0"))
