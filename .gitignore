@@ -19,3 +19,5 @@ logs/
 venv/
 env/
 .venv/
+
+request.json
